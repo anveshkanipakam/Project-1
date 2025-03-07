@@ -9,13 +9,16 @@ output: html_document
 setwd("/stor/work/INB_321G_MM_Spring2025/Anvesh_K")
 ```
 
-## R Markdown
+The trees dataset contains three variables for Black Cherry Trees:
+- **Girth**: Girth of the tree trunk (in inches)
+- **Height**: Height of the tree (in feet)
+- **Volume**: Volume of the tree (in cubic feet)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This analysis explores the relationship between **Girth and Volume**, addressing the question:
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+**"How does tree girth correlate with tree volume?"**
 
-```{r cars}
+
 summary(cars)
 view data dfdfdf
 ```
